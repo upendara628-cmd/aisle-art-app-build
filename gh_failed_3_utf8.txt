@@ -1,0 +1,106 @@
+﻿build	Build Debug APK	∩╗┐2026-03-08T09:52:31.4930752Z ##[group]Run ./gradlew assembleDebug
+build	Build Debug APK	2026-03-08T09:52:31.4931274Z [36;1m./gradlew assembleDebug[0m
+build	Build Debug APK	2026-03-08T09:52:31.4997972Z shell: /usr/bin/bash -e {0}
+build	Build Debug APK	2026-03-08T09:52:31.4998221Z env:
+build	Build Debug APK	2026-03-08T09:52:31.4998522Z   JAVA_HOME: /opt/hostedtoolcache/Java_Temurin-Hotspot_jdk/17.0.18-8/x64
+build	Build Debug APK	2026-03-08T09:52:31.4998994Z   JAVA_HOME_17_X64: /opt/hostedtoolcache/Java_Temurin-Hotspot_jdk/17.0.18-8/x64
+build	Build Debug APK	2026-03-08T09:52:31.4999392Z   ANDROID_HOME: /usr/local/lib/android/sdk
+build	Build Debug APK	2026-03-08T09:52:31.4999668Z   ANDROID_SDK_ROOT: /usr/local/lib/android/sdk
+build	Build Debug APK	2026-03-08T09:52:31.5000096Z ##[endgroup]
+build	Build Debug APK	2026-03-08T09:52:31.5957253Z Downloading https://services.gradle.org/distributions/gradle-8.14.3-all.zip
+build	Build Debug APK	2026-03-08T09:52:33.0963372Z .....................10%.....................20%......................30%.....................40%......................50%.....................60%.....................70%......................80%.....................90%......................100%
+build	Build Debug APK	2026-03-08T09:52:36.4139192Z 
+build	Build Debug APK	2026-03-08T09:52:36.4141049Z Welcome to Gradle 8.14.3!
+build	Build Debug APK	2026-03-08T09:52:36.4141798Z 
+build	Build Debug APK	2026-03-08T09:52:36.4147644Z Here are the highlights of this release:
+build	Build Debug APK	2026-03-08T09:52:36.4149708Z  - Java 24 support
+build	Build Debug APK	2026-03-08T09:52:36.4156565Z  - GraalVM Native Image toolchain selection
+build	Build Debug APK	2026-03-08T09:52:36.4157183Z  - Enhancements to test reporting
+build	Build Debug APK	2026-03-08T09:52:36.4157732Z  - Build Authoring improvements
+build	Build Debug APK	2026-03-08T09:52:36.4158015Z 
+build	Build Debug APK	2026-03-08T09:52:36.4158632Z For more details see https://docs.gradle.org/8.14.3/release-notes.html
+build	Build Debug APK	2026-03-08T09:52:36.4159137Z 
+build	Build Debug APK	2026-03-08T09:52:36.5129631Z Starting a Gradle Daemon (subsequent builds will be faster)
+build	Build Debug APK	2026-03-08T09:53:55.9135316Z 
+build	Build Debug APK	2026-03-08T09:53:55.9167003Z > Configure project :app
+build	Build Debug APK	2026-03-08T09:53:55.9181407Z WARNING: Using flatDir should be avoided because it doesn't support any meta-data formats.
+build	Build Debug APK	2026-03-08T09:53:58.1151939Z 
+build	Build Debug APK	2026-03-08T09:53:58.1152928Z > Configure project :capacitor-cordova-android-plugins
+build	Build Debug APK	2026-03-08T09:53:58.1154431Z WARNING: Using flatDir should be avoided because it doesn't support any meta-data formats.
+build	Build Debug APK	2026-03-08T09:53:59.7129902Z 
+build	Build Debug APK	2026-03-08T09:53:59.7135628Z > Task :app:preBuild UP-TO-DATE
+build	Build Debug APK	2026-03-08T09:53:59.7141449Z > Task :app:preDebugBuild UP-TO-DATE
+build	Build Debug APK	2026-03-08T09:53:59.7150237Z > Task :app:mergeDebugNativeDebugMetadata NO-SOURCE
+build	Build Debug APK	2026-03-08T09:53:59.8132231Z > Task :capacitor-android:preBuild UP-TO-DATE
+build	Build Debug APK	2026-03-08T09:53:59.8146620Z > Task :capacitor-android:preDebugBuild UP-TO-DATE
+build	Build Debug APK	2026-03-08T09:53:59.8148276Z > Task :capacitor-cordova-android-plugins:preBuild UP-TO-DATE
+build	Build Debug APK	2026-03-08T09:53:59.8157679Z > Task :capacitor-cordova-android-plugins:preDebugBuild UP-TO-DATE
+build	Build Debug APK	2026-03-08T09:53:59.8158721Z > Task :capacitor-firebase-messaging:preBuild UP-TO-DATE
+build	Build Debug APK	2026-03-08T09:53:59.8159528Z > Task :capacitor-android:writeDebugAarMetadata
+build	Build Debug APK	2026-03-08T09:53:59.8160460Z > Task :capacitor-firebase-messaging:preDebugBuild UP-TO-DATE
+build	Build Debug APK	2026-03-08T09:53:59.8161183Z > Task :app:javaPreCompileDebug
+build	Build Debug APK	2026-03-08T09:53:59.8161985Z > Task :capacitor-cordova-android-plugins:writeDebugAarMetadata
+build	Build Debug APK	2026-03-08T09:53:59.8162942Z > Task :capacitor-firebase-messaging:writeDebugAarMetadata
+build	Build Debug APK	2026-03-08T09:53:59.9131652Z > Task :capacitor-android:processDebugNavigationResources
+build	Build Debug APK	2026-03-08T09:54:29.8129055Z > Task :app:checkDebugAarMetadata
+build	Build Debug APK	2026-03-08T09:55:05.4145506Z > Task :capacitor-cordova-android-plugins:processDebugNavigationResources
+build	Build Debug APK	2026-03-08T09:55:05.4147367Z > Task :capacitor-firebase-messaging:processDebugNavigationResources
+build	Build Debug APK	2026-03-08T09:55:05.5129135Z > Task :app:processDebugNavigationResources
+build	Build Debug APK	2026-03-08T09:55:06.9129430Z > Task :app:generateDebugResValues
+build	Build Debug APK	2026-03-08T09:55:06.9133239Z > Task :capacitor-android:generateDebugResValues
+build	Build Debug APK	2026-03-08T09:55:06.9134969Z > Task :app:compileDebugNavigationResources
+build	Build Debug APK	2026-03-08T09:55:06.9135740Z > Task :capacitor-android:generateDebugResources
+build	Build Debug APK	2026-03-08T09:55:07.0175796Z > Task :capacitor-android:packageDebugResources
+build	Build Debug APK	2026-03-08T09:55:07.0177223Z > Task :capacitor-cordova-android-plugins:generateDebugResValues
+build	Build Debug APK	2026-03-08T09:55:07.0178519Z > Task :capacitor-cordova-android-plugins:generateDebugResources
+build	Build Debug APK	2026-03-08T09:55:07.0180354Z > Task :capacitor-cordova-android-plugins:packageDebugResources
+build	Build Debug APK	2026-03-08T09:55:07.0181507Z > Task :capacitor-firebase-messaging:generateDebugResValues
+build	Build Debug APK	2026-03-08T09:55:07.0182601Z > Task :capacitor-firebase-messaging:generateDebugResources
+build	Build Debug APK	2026-03-08T09:55:07.1130185Z > Task :capacitor-firebase-messaging:packageDebugResources
+build	Build Debug APK	2026-03-08T09:55:07.2130464Z > Task :app:mapDebugSourceSetPaths
+build	Build Debug APK	2026-03-08T09:55:07.2136279Z > Task :app:generateDebugResources
+build	Build Debug APK	2026-03-08T09:55:08.1129614Z > Task :app:packageDebugResources
+build	Build Debug APK	2026-03-08T09:55:08.7129525Z > Task :app:mergeDebugResources
+build	Build Debug APK	2026-03-08T09:55:09.3139199Z > Task :app:createDebugCompatibleScreenManifests
+build	Build Debug APK	2026-03-08T09:55:09.3146882Z > Task :app:extractDeepLinksDebug
+build	Build Debug APK	2026-03-08T09:55:09.3155716Z > Task :capacitor-android:extractDeepLinksDebug
+build	Build Debug APK	2026-03-08T09:55:09.3157227Z > Task :capacitor-cordova-android-plugins:extractDeepLinksDebug
+build	Build Debug APK	2026-03-08T09:55:09.3158522Z > Task :capacitor-firebase-messaging:extractDeepLinksDebug
+build	Build Debug APK	2026-03-08T09:55:09.4131501Z > Task :app:parseDebugLocalResources
+build	Build Debug APK	2026-03-08T09:55:09.4133141Z > Task :capacitor-android:processDebugManifest
+build	Build Debug APK	2026-03-08T09:55:09.4134739Z > Task :capacitor-firebase-messaging:processDebugManifest
+build	Build Debug APK	2026-03-08T09:55:09.4136022Z > Task :capacitor-cordova-android-plugins:processDebugManifest
+build	Build Debug APK	2026-03-08T09:55:09.4137220Z > Task :capacitor-android:compileDebugLibraryResources
+build	Build Debug APK	2026-03-08T09:55:09.4138389Z > Task :capacitor-android:parseDebugLocalResources
+build	Build Debug APK	2026-03-08T09:55:09.6130243Z > Task :app:processDebugMainManifest
+build	Build Debug APK	2026-03-08T09:55:09.9131510Z > Task :app:processDebugManifest
+build	Build Debug APK	2026-03-08T09:55:09.9164991Z > Task :capacitor-cordova-android-plugins:compileDebugLibraryResources
+build	Build Debug APK	2026-03-08T09:55:09.9165991Z > Task :app:processDebugManifestForPackage
+build	Build Debug APK	2026-03-08T09:55:10.0129514Z > Task :capacitor-firebase-messaging:compileDebugLibraryResources
+build	Build Debug APK	2026-03-08T09:55:10.0135667Z > Task :capacitor-android:javaPreCompileDebug
+build	Build Debug APK	2026-03-08T09:55:10.0136603Z > Task :capacitor-cordova-android-plugins:javaPreCompileDebug
+build	Build Debug APK	2026-03-08T09:55:10.0137805Z > Task :capacitor-cordova-android-plugins:parseDebugLocalResources
+build	Build Debug APK	2026-03-08T09:55:10.0138875Z > Task :capacitor-firebase-messaging:javaPreCompileDebug
+build	Build Debug APK	2026-03-08T09:55:10.0139732Z > Task :capacitor-android:generateDebugRFile
+build	Build Debug APK	2026-03-08T09:55:10.0140578Z > Task :capacitor-firebase-messaging:parseDebugLocalResources
+build	Build Debug APK	2026-03-08T09:55:10.0141601Z > Task :capacitor-cordova-android-plugins:generateDebugRFile
+build	Build Debug APK	2026-03-08T09:55:15.1138152Z > Task :capacitor-android:compileDebugJavaWithJavac FAILED
+build	Build Debug APK	2026-03-08T09:55:15.1138722Z 
+build	Build Debug APK	2026-03-08T09:55:15.1140271Z [Incubating] Problems report is available at: file:///home/runner/work/aisle-art-app-build/aisle-art-app-build/android/build/reports/problems/problems-report.html
+build	Build Debug APK	2026-03-08T09:55:15.2157459Z 
+build	Build Debug APK	2026-03-08T09:55:15.2158261Z 48 actionable tasks: 48 executed
+build	Build Debug APK	2026-03-08T09:55:15.2159076Z FAILURE: Build failed with an exception.
+build	Build Debug APK	2026-03-08T09:55:15.2159450Z 
+build	Build Debug APK	2026-03-08T09:55:15.2159721Z * What went wrong:
+build	Build Debug APK	2026-03-08T09:55:15.2160565Z Execution failed for task ':capacitor-android:compileDebugJavaWithJavac'.
+build	Build Debug APK	2026-03-08T09:55:15.2161433Z > Java compilation initialization error
+build	Build Debug APK	2026-03-08T09:55:15.2162134Z     error: invalid source release: 21
+build	Build Debug APK	2026-03-08T09:55:15.2162456Z 
+build	Build Debug APK	2026-03-08T09:55:15.2162595Z * Try:
+build	Build Debug APK	2026-03-08T09:55:15.2163216Z > Run with --stacktrace option to get the stack trace.
+build	Build Debug APK	2026-03-08T09:55:15.2164286Z > Run with --info or --debug option to get more log output.
+build	Build Debug APK	2026-03-08T09:55:15.2165056Z > Run with --scan to get full insights.
+build	Build Debug APK	2026-03-08T09:55:15.2165791Z > Get more help at https://help.gradle.org.
+build	Build Debug APK	2026-03-08T09:55:15.2166137Z 
+build	Build Debug APK	2026-03-08T09:55:15.2166357Z BUILD FAILED in 2m 43s
+build	Build Debug APK	2026-03-08T09:55:15.5796035Z ##[error]Process completed with exit code 1.

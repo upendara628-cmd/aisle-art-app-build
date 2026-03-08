@@ -1,0 +1,11 @@
+﻿build	Build Debug APK	∩╗┐2026-03-08T09:50:59.6898693Z ##[group]Run ./gradlew assembleDebug
+build	Build Debug APK	2026-03-08T09:50:59.6899118Z [36;1m./gradlew assembleDebug[0m
+build	Build Debug APK	2026-03-08T09:50:59.6948407Z shell: /usr/bin/bash -e {0}
+build	Build Debug APK	2026-03-08T09:50:59.6948868Z env:
+build	Build Debug APK	2026-03-08T09:50:59.6949174Z   JAVA_HOME: /opt/hostedtoolcache/Java_Temurin-Hotspot_jdk/17.0.18-8/x64
+build	Build Debug APK	2026-03-08T09:50:59.6949706Z   JAVA_HOME_17_X64: /opt/hostedtoolcache/Java_Temurin-Hotspot_jdk/17.0.18-8/x64
+build	Build Debug APK	2026-03-08T09:50:59.6950133Z   ANDROID_HOME: /usr/local/lib/android/sdk
+build	Build Debug APK	2026-03-08T09:50:59.6950441Z   ANDROID_SDK_ROOT: /usr/local/lib/android/sdk
+build	Build Debug APK	2026-03-08T09:50:59.6950925Z ##[endgroup]
+build	Build Debug APK	2026-03-08T09:50:59.7022017Z /home/runner/work/_temp/28dde4d7-d434-402c-a1e1-b7ba1e528984.sh: line 1: ./gradlew: Permission denied
+build	Build Debug APK	2026-03-08T09:50:59.7033547Z ##[error]Process completed with exit code 126.

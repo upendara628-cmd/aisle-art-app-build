@@ -1,0 +1,12 @@
+﻿build	Sync Capacitor Android Project	∩╗┐2026-03-08T09:44:54.4052749Z ##[group]Run npx cap sync android
+build	Sync Capacitor Android Project	2026-03-08T09:44:54.4053046Z [36;1mnpx cap sync android[0m
+build	Sync Capacitor Android Project	2026-03-08T09:44:54.4103732Z shell: /usr/bin/bash -e {0}
+build	Sync Capacitor Android Project	2026-03-08T09:44:54.4103965Z env:
+build	Sync Capacitor Android Project	2026-03-08T09:44:54.4104265Z   JAVA_HOME: /opt/hostedtoolcache/Java_Temurin-Hotspot_jdk/17.0.18-8/x64
+build	Sync Capacitor Android Project	2026-03-08T09:44:54.4104732Z   JAVA_HOME_17_X64: /opt/hostedtoolcache/Java_Temurin-Hotspot_jdk/17.0.18-8/x64
+build	Sync Capacitor Android Project	2026-03-08T09:44:54.4105137Z   ANDROID_HOME: /usr/local/lib/android/sdk
+build	Sync Capacitor Android Project	2026-03-08T09:44:54.4105411Z   ANDROID_SDK_ROOT: /usr/local/lib/android/sdk
+build	Sync Capacitor Android Project	2026-03-08T09:44:54.4105662Z ##[endgroup]
+build	Sync Capacitor Android Project	2026-03-08T09:44:54.7604758Z [31m[fatal][39m The Capacitor CLI requires NodeJS >=22.0.0
+build	Sync Capacitor Android Project	2026-03-08T09:44:54.7605308Z         Please install the latest LTS version.
+build	Sync Capacitor Android Project	2026-03-08T09:44:54.7721004Z ##[error]Process completed with exit code 1.
