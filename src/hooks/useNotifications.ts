@@ -22,7 +22,8 @@ export const useNotifications = () => {
                         console.log('FCM Token:', token);
 
                         // Save token to Supabase
-                        const { error } = await (supabase as any)
+                        // @ts-ignore
+                        const { error } = await supabase
                             .from('fcm_tokens')
                             .upsert(
                                 {
@@ -30,7 +31,7 @@ export const useNotifications = () => {
                                     token: token,
                                     updated_at: new Date().toISOString()
                                 },
-                                { onConflict: 'token' } as any
+                                { onConflict: 'token' }
                             );
 
                         if (error) console.error('Error saving FCM token:', error);
