@@ -22,7 +22,7 @@ export const useNotifications = () => {
                         console.log('FCM Token:', token);
 
                         // Save token to Supabase
-                        const { error } = await (supabase as any)
+                        const { error } = await supabase
                             .from('fcm_tokens')
                             .upsert(
                                 {
